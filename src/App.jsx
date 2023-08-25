@@ -12,33 +12,32 @@ import {
 
 const App = () => {
   return (
-    <main>
+    <main className="relative">
       <header>
         <Nav />
       </header>
-      <section>
+      <section className="mx-16 my-8">
         <Hero />
       </section>
-      <section>
+      <section className="mx-16 my-8">
         <PopularProducts />
       </section>
-      <section>
+      <section className="mx-16 my-8">
         <SuperQuality />
       </section>
-      <section>
+      <section className="mx-16 my-8">
         <Services />
       </section>
-      <section>
+      <section className="mx-16 my-8">
         <SpecialOffer />
       </section>
-
-      <section>
+      <section className="mx-16 my-8">
         <CustomerReviews />
       </section>
-      <section>
+      <section className="mx-16 my-8">
         <Subscribe />
       </section>
-      <footer>
+      <footer className="mx-16 my-8">
         <Footer />
       </footer>
     </main>
