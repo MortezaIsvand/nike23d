@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-5xl font-bold leading-normal;
+  }
+}
+
+@layer components {
+  .text-info {
+    @apply text-slate-gray max-w-md;
+  }
+}

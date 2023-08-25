@@ -13,31 +13,31 @@ import {
 const App = () => {
   return (
     <main className="relative">
-      <header>
+      <header className="px-8 py-8 sm:px-16 sm:py-8 absolute w-full z-10">
         <Nav />
       </header>
-      <section className="mx-16 my-8">
+      <section className="pl-8 sm:pl-16">
         <Hero />
       </section>
-      <section className="mx-16 my-8">
+      <section className="px-8 py-28 sm:px-16 sm:py-32">
         <PopularProducts />
       </section>
-      <section className="mx-16 my-8">
+      <section>
         <SuperQuality />
       </section>
-      <section className="mx-16 my-8">
+      <section>
         <Services />
       </section>
-      <section className="mx-16 my-8">
+      <section>
         <SpecialOffer />
       </section>
-      <section className="mx-16 my-8">
+      <section>
         <CustomerReviews />
       </section>
-      <section className="mx-16 my-8">
+      <section>
         <Subscribe />
       </section>
-      <footer className="mx-16 my-8">
+      <footer>
         <Footer />
       </footer>
     </main>
