@@ -3,11 +3,14 @@
 Build a fully responsive website using react and tailwindcss libraries.
 
 # Table of contents
-
+- Demo
 - Installation
 - Usage
 - Technologies
 - Contributing
+
+# Demo  
+  [https://nike23d.vercel.app](https://nike23d.vercel.app/)
 
 # Installation
 
