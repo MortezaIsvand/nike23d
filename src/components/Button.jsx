@@ -8,7 +8,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex gap-4 ${
+      className={`flex gap-4 whitespace-nowrap  ${
         bgColor
           ? `border ${(bgColor, borderColor, textColor)}`
           : "bg-coral-red text-[#ffffff]"

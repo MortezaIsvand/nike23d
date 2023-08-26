@@ -7,16 +7,16 @@ const SpecialOffer = () => {
       <div>
         <img src={offer} alt="shoe" width={550} className="object-contain" />
       </div>
-      <div className="flex flex-col gap-4">
-        <h2>
+      <div>
+        <h2 className="max-sm:px-4">
           <span className="text-coral-red">Special</span> Offer
         </h2>
-        <p className="text-info text-lg max-w-lg">
+        <p className="text-info max-sm:px-4 text-lg max-w-lg">
           Embark on a shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
           offer unparalleled value that sets us apart.
         </p>
-        <p className="text-info mb-8 text-lg">
+        <p className="text-info mb-8 text-lg max-sm:px-4">
           Navigate a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.

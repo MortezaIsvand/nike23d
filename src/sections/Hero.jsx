@@ -8,7 +8,7 @@ const Hero = () => {
   const [bigShoe, setBigShoe] = useState(bigShoe1);
   return (
     <section className="flex max-xl:flex-col">
-      <div className="flex flex-col justify-between gap-8 xl:w-[45%] w-full items-start py-28  ">
+      <div className="flex flex-col justify-between gap-8 xl:w-[45%] w-full items-start py-28 max-sm:pl-8 pl-16 ">
         <p className="text-xl text-coral-red ">Our Summer collections</p>
         <h2 className="sm:text-8xl text-6xl font-bold leading-normal">
           <span className="lg:whitespace-nowrap relative pr-10 pt-4 z-10 lg:bg-white">
@@ -34,7 +34,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="relative bg-pale-blue xl:min-h-screen w-full py-32 pl-10 ">
+      <div className="relative flex items-center flex-1 justify-center bg-pale-blue xl:min-h-screen w-full py-32 pl-10 ">
         <div>
           <img src={bigShoe} alt="shoe" />
         </div>

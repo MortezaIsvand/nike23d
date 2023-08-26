@@ -3,7 +3,7 @@ import { arrowRight } from "../assets/icons";
 import Button from "../components/Button";
 const SuperQuality = () => {
   return (
-    <section className="flex max-lg:flex-col justify-between items-center">
+    <section className="flex max-lg:flex-col justify-between items-center gap-20">
       <div className="flex flex-col gap-4">
         <h2>
           We Provide You
