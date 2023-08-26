@@ -1,8 +1,44 @@
-# React + Vite
+# React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build a fully responsive website using react and tailwindcss libraries.
 
-Currently, two official plugins are available:
+# Table of contents
+- Demo
+- Installation
+- Usage
+- Technologies
+- Contributing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Demo  
+  [https://nike23d.vercel.app](https://nike23d.vercel.app/)
+
+# Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/MortezaIsvand/nike23d.git
+```
+2. Install the required dependencies by running the following command in the project directory:
+```bash
+npm i
+```
+
+# Usage
+
+1. Start the development server:
+```bash
+npm start
+```
+
+2. Open `http://localhost:5173` to view it in the browser
+
+# Technologies
+- React
+- Tailwind CSS
+- Vite
+
+# Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
