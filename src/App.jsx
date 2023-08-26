@@ -34,10 +34,10 @@ const App = () => {
       <section className="px-8 py-28 sm:px-16 sm:py-28 bg-pale-blue">
         <CustomerReviews />
       </section>
-      <section>
+      <section className="px-8 py-28 sm:px-16 sm:py-28">
         <Subscribe />
       </section>
-      <footer>
+      <footer className="px-8 py-10 sm:px-16 sm:py-28 bg-black">
         <Footer />
       </footer>
     </main>
