@@ -22,7 +22,7 @@ const App = () => {
       <section className="px-8 py-28 sm:px-16 sm:py-32">
         <PopularProducts />
       </section>
-      <section>
+      <section className="px-8 py-28 sm:px-16 sm:py-32">
         <SuperQuality />
       </section>
       <section>
