@@ -1,11 +1,11 @@
-import { offer } from "../assets/images";
+import { offer2 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 import Button from "../components/Button";
 const SpecialOffer = () => {
   return (
     <section className="flex justify-between gap-10 items-center max-lg:flex-col-reverse ">
       <div>
-        <img src={offer} alt="shoe" width={550} className="object-contain" />
+        <img src={offer2} alt="shoe"  className="object-contain" />
       </div>
       <div>
         <h2 className="max-sm:px-4">
