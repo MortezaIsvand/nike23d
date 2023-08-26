@@ -19,19 +19,19 @@ const App = () => {
       <section className="pl-8 sm:pl-16">
         <Hero />
       </section>
-      <section className="px-8 py-28 sm:px-16 sm:py-32">
+      <section className="px-8 py-28 sm:px-16 sm:py-28">
         <PopularProducts />
       </section>
-      <section className="px-8 py-28 sm:px-16 sm:py-32">
+      <section className="px-8 py-28 sm:px-16 sm:py-28">
         <SuperQuality />
       </section>
-      <section>
+      <section className="px-8 py-28 sm:px-16 sm:py-28">
         <Services />
       </section>
-      <section>
+      <section className="px-8 py-28 sm:px-16 sm:py-28">
         <SpecialOffer />
       </section>
-      <section>
+      <section className="px-8 py-28 sm:px-16 sm:py-28 bg-pale-blue">
         <CustomerReviews />
       </section>
       <section>

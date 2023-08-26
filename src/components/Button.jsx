@@ -1,12 +1,24 @@
-const Button = ({ label, icon, fullwidth }) => {
+const Button = ({
+  label,
+  icon,
+  fullwidth,
+  bgColor,
+  borderColor,
+  textColor,
+}) => {
   return (
     <button
-      className={`flex gap-4 bg-coral-red rounded-full px-8  py-4 text-[#ffffff] justify-center items-center ${
-        fullwidth ? "w-full" : "max-w-fit"
+      className={`flex gap-4 ${
+        bgColor
+          ? `border ${(bgColor, borderColor, textColor)}`
+          : "bg-coral-red text-[#ffffff]"
+      } rounded-full px-8  py-4  justify-center items-center ${
+        fullwidth ? "w-full" : "max-w-full"
       }`}
     >
       {label}
-      <img src={icon} alt="icon" />
+
+      {icon && <img src={icon} alt="icon" />}
     </button>
   );
 };

@@ -1,4 +1,4 @@
-import CustomerReviews from "./CustomerReviews";
+import customers from "./CustomerReviews";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Nav from "./Nav";
@@ -9,7 +9,7 @@ import Subscribe from "./Subscribe";
 import SuperQuality from "./SuperQuality";
 
 export {
-  CustomerReviews,
+  customers as CustomerReviews,
   Footer,
   Hero,
   Nav,

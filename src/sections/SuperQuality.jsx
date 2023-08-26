@@ -3,7 +3,7 @@ import { arrowRight } from "../assets/icons";
 import Button from "../components/Button";
 const SuperQuality = () => {
   return (
-    <section className="flex gap-8 max-lg:flex-col justify-between items-center">
+    <section className="flex max-lg:flex-col justify-between items-center">
       <div className="flex flex-col gap-4">
         <h2>
           We Provide You
@@ -14,10 +14,12 @@ const SuperQuality = () => {
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
         </p>
-        <p className="text-info mb-8 text-lg">
+        <p className="text-info mb-8 text-gl">
           Our dedication to detail and excellence ensures your satisfaction
         </p>
-        <Button label={"Shop now"} icon={arrowRight} />
+        <div>
+          <Button label={"Shop now"} icon={arrowRight} />
+        </div>
       </div>
       <div>
         <img src={shoe8} alt="shoe" />
